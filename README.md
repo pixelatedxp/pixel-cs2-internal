@@ -1,12 +1,5 @@
 # Pixel's CS2 Internal Cheat
 
-![License](https://img.shields.io/github/license/pixelatedxp/Pixel-CS2-Internal?color=blue&logo=github)
-![Stars](https://img.shields.io/github/stars/pixelatedxp/Pixel-CS2-Internal?style=social)
-![Last Commit](https://img.shields.io/github/last-commit/pixelatedxp/Pixel-CS2-Internal)
-![Issues](https://img.shields.io/github/issues/pixelatedxp/Pixel-CS2-Internal)
-
-A powerful internal cheat for Counter-Strike 2. This repo has the full source code and everything you need to build it yourself.
-
 This code is about **4 months old** as of re-publishing. GitHub unfairly took the original repo down, so I'm re-pushing it here.
 
 **Before you try to build or use this, read this entire section carefully:**
@@ -17,7 +10,7 @@ This code is about **4 months old** as of re-publishing. GitHub unfairly took th
 - All offsets and signatures in `Cs2-Offsets/` need to be updated. They will be stale by the time you read this.
 - **Do NOT message me on Discord asking for help.** Figure it out yourself. If you can't update the bones, update the offsets, fix the skin changer, or implement proper trace-based visibility, you are not smart enough to be cheating on CS2. All the information you need is publicly available.
 
-> Check me out! Be sure to visit my personal website at https://pixelis.dev/ for more projects and tools.
+> My personal site: https://pixelis.dev/
 
 ![Main Showcase](assets/ingame_screenshot.png)
 
@@ -54,19 +47,19 @@ Pixel's Internal is fast and built to stay hidden. Since it's an internal cheat,
 ![AWP Showcase](assets/yet_another_ingame_screenshot_awp.png)
 ![More Skins](assets/another_skin_changer_screenshot.png)
 
-## Roadmap to v2
+## Pixel CS2 Internal v2
 
-I am already working on the next major update! **Pixel CS2 Internal v2** will include:
+I have implemented all of the following and fixed most bugs:
 
-- [ ] **Reliable Visibility Check**: No more aiming through walls. Uses `bSpottedByMask` for a truly legit experience.
-- [ ] **Spectator List**: See exactly who is watching you in real-time.
-- [ ] **Hit Sound**: Crunchy audio feedback for every shot landed.
-- [ ] **Glow ESP**: High-performance glowing outlines for maximum visibility.
-- [ ] **External Radar**: A separate map overlay for better awareness.
-- [ ] **Bhop**: Automatic bunnyhopping for faster movement.
+- **Reliable Visibility Check**: Proper ray/trace based visibility.
+- **Spectator List**: See exactly who is watching you in real-time.
+- **Hit Sound**: Audio feedback for every shot landed.
+- **Glow ESP**: High-performance glowing outlines for maximum visibility.
+- **External Radar**: A separate map overlay for better awareness.
+- **Bhop**: Automatic bunnyhopping.
 
 > [!TIP]
-> **Pixel CS2 Internal v2** will be released to the public once this repository reaches **40 Stars**! ⭐ Help us get there!
+> Unfortunately v2 will not be released to the public due to the significant time investment required.
 
 
 ## Staying Safe
@@ -104,4 +97,3 @@ If you don't want to build it, there is a prebuilt DLL in the `releases/` folder
 
 > **IMPORTANT: This project is for educational use and research ONLY.** I am not responsible for any bans, VAC detections, or account losses. This code is provided AS-IS with no guarantees. Do not use this in online matches if you care about your account. This repository exists purely for learning purposes - please respect that so GitHub doesn't take it down again.
 
-Check out more at [pixelis.dev](https://pixelis.dev/)
