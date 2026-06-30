@@ -19,7 +19,7 @@ This code is about **4 months old** as of re-publishing. GitHub unfairly took th
 
 ## Features
 
-Pixel's Internal is fast and built to stay hidden. Since it's an internal cheat, it's way smoother than external ones.
+Internal cheat loaded as a DLL into the CS2 process.
 
 ### Aimbot & RCS
 - **Aimbot**: Custom aim with team check and wall check.
