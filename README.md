@@ -24,7 +24,7 @@ Internal cheat loaded as a DLL into the CS2 process.
 ### Aimbot & RCS
 - **Aimbot**: Custom aim with team check and wall check.
 - **Smooth Aim**: Human-like aiming so you don't look like a bot.
-- **RCS**: Recoil control to keep your shots on target.
+- **RCS**: Recoil control. Doesn't work to my knowledge (maybe it worked at one point, doesn't now).
 - **Triggerbot**: Shoots automatically when someone walks into your crosshair.
 
 ![Menu](assets/menu_screenshot.png)
@@ -59,7 +59,7 @@ I have implemented all of the following and fixed most bugs:
 - **Bhop**: Automatic bunnyhopping.
 
 > [!TIP]
-> Unfortunately v2 will not be released to the public due to the significant time investment required.
+> v2 will not be released to the public. Significant time investment I've done and don't want to give away for free.
 
 
 ## Staying Safe
