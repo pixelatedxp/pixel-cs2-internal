@@ -84,8 +84,7 @@ To stay undetected with this cheat, you **must** use these settings:
 
 ## How to use
 
-If you don't want to build it, there is a prebuilt DLL in the `releases/` folder.  
-**Note:** This DLL is definitely outdated by now. Build it yourself with fresh offsets.
+You must build the DLL yourself. No prebuilt releases are provided.
 
 1. Open CS2.
 2. Run your injector as Admin.
