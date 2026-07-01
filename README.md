@@ -97,5 +97,5 @@ You must build the DLL yourself. No prebuilt releases are provided.
 
 ---
 
-> **IMPORTANT: This project is for educational use and research ONLY.** I am not responsible for any bans, VAC detections, or account losses. This code is provided AS-IS with no guarantees. Do not use this in online matches if you care about your account. This repository exists purely for learning purposes - please respect that so GitHub doesn't take it down again.
+> **IMPORTANT: This project is for educational use and research ONLY.** I am not responsible for any bans, VAC detections, or account losses. This code is provided AS-IS with no guarantees. Do not use this in online matches if you care about your account. This repository exists purely for learning purposes, please respect that so GitHub doesn't take it down again.
 
