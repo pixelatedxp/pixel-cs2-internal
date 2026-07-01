@@ -2,13 +2,16 @@
 
 This code is about **4 months old** as of re-publishing. GitHub unfairly took the original repo down, so I'm re-pushing it here.
 
+It **was working** back then, but because of CS2 updates (AnimGraph 2, offset changes, etc.) it **won't work out of the box now**. I **may update to AnimGraph 2** if I get the time — no promises, no ETA.
+
 **Before you try to build or use this, read this entire section carefully:**
 
-- The **skin changer works** but the **knife changer does NOT work** in this release. The way I was doing it is 100% wrong - you cannot change models or apply paintkits that way. I am **not** going to update the code. I will **not** push updates to this repository. Figure it out yourself.
-- The bone setup needs updating to **AnimGraph 2** (CS2's new animation system). The old bone indices used here are outdated.
-- There is **no visibility check**. The way I was doing it was also wrong - you need actual ray/trace, not the spotted flag.
+- The **skin changer works** but the **knife changer never worked** in this release. The approach I used is wrong — you cannot change models or apply paintkits that way. You'll need to figure out the correct method yourself.
+- The bone setup needs updating to **AnimGraph 2** (CS2's new animation system). The old bone indices are outdated. I'll try to push an A2 update soon if I get the time.
+- **Visibility check never worked**. The way I was doing it was wrong — you need actual ray/trace, not the spotted flag. You'll need to implement it yourself or wait for a potential update.
+- **RCS never worked** reliably. It may have appeared to at some point, but it was never correct.
 - All offsets and signatures in `Cs2-Offsets/` need to be updated. They will be stale by the time you read this.
-- **Do NOT message me on Discord asking for help.** Figure it out yourself. If you can't update the bones, update the offsets, fix the skin changer, or implement proper trace-based visibility, you are not smart enough to be cheating on CS2. All the information you need is publicly available.
+- **Do NOT message me on Discord asking for help.** Figure it out yourself. If you can't update the bones, update the offsets, fix the skin changer, or implement proper trace-based visibility, this probably isnt for you. All the information you need is publicly available.
 
 > My personal site: https://pixelis.dev/
 
